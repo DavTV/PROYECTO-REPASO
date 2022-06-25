@@ -1,0 +1,16 @@
+
+:root{
+    --color-iconos : #089bff;
+     --color-iconos-hover : #1684ce; 
+     --color-fondo:#bceff9;
+ }
+
+ .active{
+     background-color: var(--color-iconos) !important;
+ }
+ .bg-color-btn{
+    background-color: var(--color-iconos) !important;
+}
+.texto{
+    text-align: justify;
+}

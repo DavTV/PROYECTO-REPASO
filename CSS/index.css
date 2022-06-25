@@ -1,0 +1,57 @@
+
+:root{
+    --color-iconos : #089bff;
+     --color-iconos-hover : #1684ce; 
+     --color-fondo:#bceff9;
+ }
+ .botones-bajos{
+    border-radius: 100% !important;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: var(--color-iconos) !important;
+}
+.anterior-posterior{
+    background-color: var(--color-iconos-hover);
+    height: 50px;
+    width: 50px;    
+}
+/* .contenedor-botones-bajos{
+    top: 20%;
+    height: 50px;
+} */
+.btn-b{
+    position: absolute;
+    top: 100%;
+}
+.cont-zapatillas{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg?w=826&t=st=1650408477~exp=1650409077~hmac=4126d914b308511d647f1d09358527458f51528af28afef8fee99e5e38075fa7");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.owl-carousel img{
+    height: 200px !important;
+}
+.bg-color{
+    background-color: var(--color-fondo) !important;
+}
+.bg-color-btn{
+    background-color: var(--color-iconos) !important;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.categorias  img{
+    transition: transform .1s ;
+}
+.categorias img:hover{
+    transform: scale(0.95);
+    /* box-shadow: 0 .5rem 1rem rgba(gray, .15); */
+}
+.color{
+    color: var(--color-iconos);
+}
+.libroR{
+    width: 100px;
+    height: 50px;
+}
